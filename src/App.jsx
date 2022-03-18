@@ -1,4 +1,4 @@
-import { useEffect, useState } from 'react';
+import { useState } from 'react';
 import styles from './App.module.css';
 import { default as ListItem } from './components/ListItem';
 
@@ -29,10 +29,6 @@ const App = () => {
 		const filterList = todoList.filter((item) => item.id !== itemID);
 		setTodoList(filterList);
 	};
-
-	useEffect(() => {
-		console.log(todoList);
-	}, [todoList]);
 
 	return (
 		<div className={styles.container}>

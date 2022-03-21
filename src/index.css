@@ -10,8 +10,46 @@ body {
 		sans-serif;
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
+	background-color: #171717;
 }
 
 code {
 	font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+}
+
+::-webkit-scrollbar {
+	display: block;
+	width: 0.5rem;
+	height: 0.25rem;
+}
+
+::-webkit-scrollbar-button {
+	display: none;
+}
+
+::-webkit-scrollbar-thumb {
+	background: #c2c2c2;
+	border-radius: 0.25rem;
+}
+::-webkit-scrollbar-thumb:horizontal {
+	background: #c2c2c2;
+	border-radius: 0.25rem;
+}
+
+::-webkit-scrollbar-thumb:hover {
+	background: #374151;
+}
+::-webkit-scrollbar-thumb:horizontal:hover {
+	background: #374151;
+}
+
+::-webkit-scrollbar-track {
+	background: #171717;
+}
+
+progress::-webkit-progress-value {
+	background-color: #f2f2f2;
+}
+progress::-webkit-progress-bar {
+	background-color: #262626;
 }

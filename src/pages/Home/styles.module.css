@@ -1,11 +1,11 @@
 .container {
-	width: 100vw;
-	min-height: 100vh;
-	background-color: #171717;
+	width: 100%;
+	max-height: 100vh;
 	color: #fafafa;
 	display: flex;
 	flex-direction: column;
 	items-align: center;
+	justify-content: center;
 	padding: 2rem 16rem;
 }
 

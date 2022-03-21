@@ -1,0 +1,21 @@
+.container {
+	width: 100%;
+	height: 100vh;
+	max-height: 100vh;
+	color: #fafafa;
+	display: flex;
+	flex-direction: column;
+	items-align: center;
+	padding: 2rem 16rem;
+}
+
+h1 {
+	margin: 8rem auto 2rem auto;
+}
+
+p {
+	text-align: center;
+	max-width: 1024px;
+	margin: 0 auto;
+	font-size: 1.2rem;
+}
